@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DynamicTVC" customModule="CombinedExercises" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k4z-u0-dNW">
+                        <rect key="frame" x="0.0" y="0.0" width="371" height="44"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ioC-d6-zhH" userLabel="main stack">
+                                <rect key="frame" x="0.0" y="0.0" width="371" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d6p-SX-YkF" userLabel="labeltext">
+                                        <rect key="frame" x="0.0" y="0.0" width="210.66666666666666" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bN-4i-Trf">
+                                                <rect key="frame" x="0.0" y="0.0" width="105.33333333333333" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zjv-Xr-7VL">
+                                                <rect key="frame" x="105.33333333333334" y="0.0" width="105.33333333333334" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8r-5z-0S7" userLabel="btns">
+                                        <rect key="frame" x="210.66666666666663" y="0.0" width="160.33333333333337" height="44"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ux9-Kj-muS" userLabel="add">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="44"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="add"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAR-ur-AAk" userLabel="delete">
+                                                <rect key="frame" x="80.000000000000028" y="0.0" width="80.333333333333343" height="44"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="delete"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ioC-d6-zhH" secondAttribute="bottom" id="CwA-m5-HM0"/>
+                            <constraint firstItem="ioC-d6-zhH" firstAttribute="leading" secondItem="k4z-u0-dNW" secondAttribute="leading" id="OvK-zA-CvK"/>
+                            <constraint firstItem="ioC-d6-zhH" firstAttribute="top" secondItem="k4z-u0-dNW" secondAttribute="top" id="fWL-Hb-LgZ"/>
+                            <constraint firstAttribute="trailing" secondItem="ioC-d6-zhH" secondAttribute="trailing" id="sdI-ch-a12"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k4z-u0-dNW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7bo-Gn-ttD"/>
+                    <constraint firstItem="k4z-u0-dNW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9xh-dJ-Chw"/>
+                    <constraint firstAttribute="bottom" secondItem="k4z-u0-dNW" secondAttribute="bottom" id="CC3-Sm-W0Y"/>
+                    <constraint firstAttribute="trailing" secondItem="k4z-u0-dNW" secondAttribute="trailing" id="hhs-Ge-qMQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAdd" destination="Ux9-Kj-muS" id="ngK-1h-SqZ"/>
+                <outlet property="btnDelete" destination="UAR-ur-AAk" id="P5E-aG-Bff"/>
+                <outlet property="label" destination="2bN-4i-Trf" id="Hqp-K1-FQA"/>
+                <outlet property="txtTitle" destination="Zjv-Xr-7VL" id="uVQ-kK-MC1"/>
+            </connections>
+            <point key="canvasLocation" x="95.419847328244273" y="20.422535211267608"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

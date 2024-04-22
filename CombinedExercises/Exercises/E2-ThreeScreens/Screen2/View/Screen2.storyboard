@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Screen2VC-->
+        <scene sceneID="H65-D2-FmA">
+            <objects>
+                <viewController storyboardIdentifier="Screen2" id="Tq0-ob-iWS" customClass="Screen2VC" customModule="CombinedExercises" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="beA-JM-l5j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ip-hc-5EY">
+                                <rect key="frame" x="16" y="147" width="288" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmO-4y-dG6">
+                                <rect key="frame" x="16" y="195" width="288" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Register">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick login with touch ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aj-Zk-Wjf">
+                                <rect key="frame" x="60" y="273" width="200" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fingerprint" translatesAutoresizingMaskIntoConstraints="NO" id="9Uv-Ud-sWh">
+                                <rect key="frame" x="112" y="315" width="96" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9Uv-Ud-sWh" secondAttribute="height" multiplier="1:1" id="Ah5-A6-4Y8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXV-Hp-04t">
+                                <rect key="frame" x="16" y="431" width="288" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HX7-Qv-7EU"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="3Ip-hc-5EY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="HX7-Qv-7EU" secondAttribute="top" constant="127" id="2Tv-wU-sFN"/>
+                            <constraint firstItem="9aj-Zk-Wjf" firstAttribute="centerY" secondItem="beA-JM-l5j" secondAttribute="centerY" id="C64-U0-uxS"/>
+                            <constraint firstItem="9Uv-Ud-sWh" firstAttribute="top" secondItem="9aj-Zk-Wjf" secondAttribute="bottom" constant="20" id="C7A-9l-sbd"/>
+                            <constraint firstItem="KXV-Hp-04t" firstAttribute="leading" secondItem="HX7-Qv-7EU" secondAttribute="leading" constant="16" id="EcN-2s-SDj"/>
+                            <constraint firstItem="9aj-Zk-Wjf" firstAttribute="top" secondItem="nmO-4y-dG6" secondAttribute="bottom" constant="40" id="Gty-JX-geq"/>
+                            <constraint firstItem="9Uv-Ud-sWh" firstAttribute="centerX" secondItem="beA-JM-l5j" secondAttribute="centerX" id="JNB-kG-Hnq"/>
+                            <constraint firstItem="3Ip-hc-5EY" firstAttribute="leading" secondItem="HX7-Qv-7EU" secondAttribute="leading" constant="16" id="Jqj-WG-Uc7"/>
+                            <constraint firstItem="HX7-Qv-7EU" firstAttribute="trailing" secondItem="nmO-4y-dG6" secondAttribute="trailing" constant="16" id="MZB-Lu-nPK"/>
+                            <constraint firstItem="nmO-4y-dG6" firstAttribute="leading" secondItem="HX7-Qv-7EU" secondAttribute="leading" constant="16" id="Q4Q-1B-NNu"/>
+                            <constraint firstItem="KXV-Hp-04t" firstAttribute="top" secondItem="9Uv-Ud-sWh" secondAttribute="bottom" constant="20" id="Snk-pr-1Fp"/>
+                            <constraint firstItem="9Uv-Ud-sWh" firstAttribute="width" secondItem="beA-JM-l5j" secondAttribute="width" multiplier="0.3" id="fNf-xk-bsn"/>
+                            <constraint firstItem="nmO-4y-dG6" firstAttribute="top" secondItem="3Ip-hc-5EY" secondAttribute="bottom" constant="10" id="gB4-Kd-te3"/>
+                            <constraint firstItem="HX7-Qv-7EU" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KXV-Hp-04t" secondAttribute="bottom" constant="115" id="kWj-8A-3VC"/>
+                            <constraint firstItem="9aj-Zk-Wjf" firstAttribute="centerX" secondItem="beA-JM-l5j" secondAttribute="centerX" id="oO1-nm-6w3"/>
+                            <constraint firstItem="HX7-Qv-7EU" firstAttribute="trailing" secondItem="KXV-Hp-04t" secondAttribute="trailing" constant="16" id="pn6-ah-Eae"/>
+                            <constraint firstItem="HX7-Qv-7EU" firstAttribute="trailing" secondItem="3Ip-hc-5EY" secondAttribute="trailing" constant="16" id="qzb-RJ-ZaV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="beA-JM-l5j" id="QII-LE-5Le"/>
+                        <outlet property="btnRegister" destination="nmO-4y-dG6" id="fZg-8F-S9m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRy-BI-dAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4018" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fingerprint" width="96" height="96"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

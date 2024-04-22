@@ -1,0 +1,37 @@
+{
+    "resultflag": 1,
+    "message": "Success message",
+    "StudentList": [
+            {
+                "name": "Atharv Pandit",
+                "dob":"01-01-2000",
+                "department":"ios",
+                "img":"https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw"
+            },
+            {
+                "name": "Kashyap Patel",
+                "dob":"01-02-2000",
+                "department":"ios",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nick_Ocean_Profile_Picture_.jpg/240px-Nick_Ocean_Profile_Picture_.jpg"
+            },
+            {
+                "name": "Kumar Vishwas",
+                "dob":"11-02-2001",
+                "department":"java",
+                "img":"https://dinopixel.com/preload/0124/-profile-pic-.png"
+            },
+            {
+                "name": "Panshul Mistry",
+                "dob":"01-03-2000",
+                "department":"ios",
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/TripleA_profile.jpg/240px-TripleA_profile.jpg"
+            },
+            {
+                "name": "Priyal Savaliya",
+                "dob":"01-04-2000",
+                "department":"android",
+                "img":"https://dinopixel.com/preload/0423/Profile-pic1682355419.png"
+            }
+           
+        ]
+}
