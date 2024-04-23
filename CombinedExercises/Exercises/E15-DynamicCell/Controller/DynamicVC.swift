@@ -20,6 +20,7 @@ class DynamicVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTable()
+        hideKeyboardWhenTappedAround()
     }
     
 
@@ -28,11 +29,7 @@ class DynamicVC: UIViewController {
             dataSourceDelegate = .init(arrData: arrData, delegate: self, tbl: viewTable)
         }
     }
-    
-
 }
-
-
 extension DynamicVC: TblViewDelegate{
     func didselect(tbl: UITableView, indexPath: IndexPath) {
         

@@ -26,6 +26,16 @@
 		49324E742BC92422009A8883 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49324E612BC92422009A8883 /* Poppins-SemiBoldItalic.ttf */; };
 		49324E752BC92422009A8883 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49324E622BC92422009A8883 /* Poppins-Thin.ttf */; };
 		49324E762BC92422009A8883 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49324E632BC92422009A8883 /* Poppins-ThinItalic.ttf */; };
+		49542C0D2BD7680900289F95 /* SideMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49542C0C2BD7680900289F95 /* SideMenu.plist */; };
+		49542C102BD768CB00289F95 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 49542C0F2BD768CB00289F95 /* SideMenu */; };
+		49542C152BD768F400289F95 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49542C142BD768F400289F95 /* SidemenuVC.swift */; };
+		49542C172BD7690000289F95 /* Sidemenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49542C162BD7690000289F95 /* Sidemenu.storyboard */; };
+		49542C192BD7691E00289F95 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49542C182BD7691E00289F95 /* SideMenuModel.swift */; };
+		49542C1C2BD76A8700289F95 /* SidemenuDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49542C1B2BD76A8700289F95 /* SidemenuDataSourceDelegate.swift */; };
+		49542C202BD76AF300289F95 /* SidemenuTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49542C1F2BD76AF300289F95 /* SidemenuTVC.xib */; };
+		49542C212BD76AF300289F95 /* SidemenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49542C1E2BD76AF300289F95 /* SidemenuTVC.swift */; };
+		49542C242BD76F6A00289F95 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49542C232BD76F6A00289F95 /* DashboardVC.swift */; };
+		49542C272BD76F7500289F95 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49542C262BD76F7500289F95 /* Dashboard.storyboard */; };
 		495F7F892BC7BAA9005BFE10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F7F882BC7BAA9005BFE10 /* AppDelegate.swift */; };
 		495F7F8D2BC7BAA9005BFE10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F7F8C2BC7BAA9005BFE10 /* ViewController.swift */; };
 		495F7F902BC7BAA9005BFE10 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 495F7F8F2BC7BAA9005BFE10 /* Base */; };
@@ -119,6 +129,15 @@
 		49324E612BC92422009A8883 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		49324E622BC92422009A8883 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		49324E632BC92422009A8883 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		49542C0C2BD7680900289F95 /* SideMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SideMenu.plist; sourceTree = "<group>"; };
+		49542C142BD768F400289F95 /* SidemenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		49542C162BD7690000289F95 /* Sidemenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sidemenu.storyboard; sourceTree = "<group>"; };
+		49542C182BD7691E00289F95 /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		49542C1B2BD76A8700289F95 /* SidemenuDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuDataSourceDelegate.swift; sourceTree = "<group>"; };
+		49542C1E2BD76AF300289F95 /* SidemenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuTVC.swift; sourceTree = "<group>"; };
+		49542C1F2BD76AF300289F95 /* SidemenuTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SidemenuTVC.xib; sourceTree = "<group>"; };
+		49542C232BD76F6A00289F95 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		49542C262BD76F7500289F95 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		495F7F852BC7BAA9005BFE10 /* CombinedExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombinedExercises.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495F7F882BC7BAA9005BFE10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495F7F8C2BC7BAA9005BFE10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -199,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49542C102BD768CB00289F95 /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +250,84 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		49542C0A2BD767AF00289F95 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				49542C252BD76F6D00289F95 /* View */,
+				49542C222BD76F5800289F95 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		49542C0B2BD767E100289F95 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				49542C1D2BD76AAD00289F95 /* Cell */,
+				49542C1A2BD76A7300289F95 /* DataSourceDelegate */,
+				49542C132BD768DA00289F95 /* View */,
+				49542C122BD768D500289F95 /* Controller */,
+				49542C112BD768D200289F95 /* Model */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		49542C112BD768D200289F95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49542C182BD7691E00289F95 /* SideMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49542C122BD768D500289F95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49542C142BD768F400289F95 /* SidemenuVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49542C132BD768DA00289F95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49542C162BD7690000289F95 /* Sidemenu.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49542C1A2BD76A7300289F95 /* DataSourceDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				49542C1B2BD76A8700289F95 /* SidemenuDataSourceDelegate.swift */,
+			);
+			path = DataSourceDelegate;
+			sourceTree = "<group>";
+		};
+		49542C1D2BD76AAD00289F95 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				49542C1E2BD76AF300289F95 /* SidemenuTVC.swift */,
+				49542C1F2BD76AF300289F95 /* SidemenuTVC.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		49542C222BD76F5800289F95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49542C232BD76F6A00289F95 /* DashboardVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49542C252BD76F6D00289F95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49542C262BD76F7500289F95 /* Dashboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		495F7F7C2BC7BAA9005BFE10 = {
 			isa = PBXGroup;
 			children = (
@@ -252,10 +350,13 @@
 				495F7FDD2BC7D7E7005BFE10 /* Extensions */,
 				495F7F882BC7BAA9005BFE10 /* AppDelegate.swift */,
 				49E31B4A2BD12ED000784C48 /* App */,
+				49542C0A2BD767AF00289F95 /* Main */,
+				49542C0B2BD767E100289F95 /* SideMenu */,
 				49E31B432BD1272400784C48 /* Exercises */,
 				49E31B492BD12EA000784C48 /* Assets */,
 				495F7F932BC7BAAB005BFE10 /* LaunchScreen.storyboard */,
 				495F7F962BC7BAAB005BFE10 /* Info.plist */,
+				49542C0C2BD7680900289F95 /* SideMenu.plist */,
 			);
 			path = CombinedExercises;
 			sourceTree = "<group>";
@@ -951,6 +1052,9 @@
 			dependencies = (
 			);
 			name = CombinedExercises;
+			packageProductDependencies = (
+				49542C0F2BD768CB00289F95 /* SideMenu */,
+			);
 			productName = CombinedExercises;
 			productReference = 495F7F852BC7BAA9005BFE10 /* CombinedExercises.app */;
 			productType = "com.apple.product-type.application";
@@ -979,6 +1083,9 @@
 				Base,
 			);
 			mainGroup = 495F7F7C2BC7BAA9005BFE10;
+			packageReferences = (
+				49542C0E2BD768CB00289F95 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = 495F7F862BC7BAA9005BFE10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1006,6 +1113,7 @@
 				49324E712BC92422009A8883 /* Poppins-MediumItalic.ttf in Resources */,
 				49E31AD42BCE447300784C48 /* CustomCellVC.xib in Resources */,
 				495F7FC52BC7D43F005BFE10 /* ColourChange.storyboard in Resources */,
+				49542C202BD76AF300289F95 /* SidemenuTVC.xib in Resources */,
 				49324E6C2BC92422009A8883 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				49324E6B2BC92422009A8883 /* Poppins-ExtraLight.ttf in Resources */,
 				49E31AC72BCD49F700784C48 /* CountryTable.storyboard in Resources */,
@@ -1031,15 +1139,18 @@
 				49324E6E2BC92422009A8883 /* Poppins-Light.ttf in Resources */,
 				49E31B392BD0EBF300784C48 /* SimpleCVC.xib in Resources */,
 				49E31B262BCFBFDE00784C48 /* SectionedTable.storyboard in Resources */,
+				49542C0D2BD7680900289F95 /* SideMenu.plist in Resources */,
 				49324E732BC92422009A8883 /* Poppins-SemiBold.ttf in Resources */,
 				49E31B512BD130C300784C48 /* ComplexCollectionView.storyboard in Resources */,
 				49324E722BC92422009A8883 /* Poppins-Regular.ttf in Resources */,
+				49542C272BD76F7500289F95 /* Dashboard.storyboard in Resources */,
 				49E31ACF2BCE438000784C48 /* CustomizedTable.storyboard in Resources */,
 				49E31AE02BCE996C00784C48 /* CustomTVC.xib in Resources */,
 				49324E662BC92422009A8883 /* Poppins-BlackItalic.ttf in Resources */,
 				495F7FAA2BC7BFBB005BFE10 /* ThreeScreens.storyboard in Resources */,
 				49E31AC12BCD469D00784C48 /* SimpleTable.storyboard in Resources */,
 				495F7F952BC7BAAB005BFE10 /* Base in Resources */,
+				49542C172BD7690000289F95 /* Sidemenu.storyboard in Resources */,
 				495F7F902BC7BAA9005BFE10 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1054,10 +1165,13 @@
 				49E31ABE2BCD467D00784C48 /* SimpleTVC.swift in Sources */,
 				49E31B322BD0EB8C00784C48 /* SimpleCollectionVC.swift in Sources */,
 				49E31AE82BCE9A6400784C48 /* TblViewDelegate.swift in Sources */,
+				49542C212BD76AF300289F95 /* SidemenuTVC.swift in Sources */,
+				49542C1C2BD76A8700289F95 /* SidemenuDataSourceDelegate.swift in Sources */,
 				495F7FD02BC7D5AB005BFE10 /* LoginScreenVC.swift in Sources */,
 				49E31B3F2BD126A000784C48 /* MainDataSourceDelegate.swift in Sources */,
 				495F7FE42BC7D7F7005BFE10 /* HomeVC.swift in Sources */,
 				49E31AEC2BCEA60A00784C48 /* StudentWebService.swift in Sources */,
+				49542C152BD768F400289F95 /* SidemenuVC.swift in Sources */,
 				49E31B6B2BD293AD00784C48 /* Todo.swift in Sources */,
 				495F7FBB2BC7D3AB005BFE10 /* Screen3VC.swift in Sources */,
 				49E31B562BD130E700784C48 /* ComplexCVC.swift in Sources */,
@@ -1067,11 +1181,13 @@
 				49E31B482BD1275900784C48 /* MainTVC.swift in Sources */,
 				495F7FDE2BC7D7E8005BFE10 /* String + Extension.swift in Sources */,
 				49E31B652BD2932800784C48 /* DynamicTVC.swift in Sources */,
+				49542C192BD7691E00289F95 /* SideMenuModel.swift in Sources */,
 				49E31B2E2BCFC09B00784C48 /* SectionedTVCell.swift in Sources */,
 				495F7FD72BC7D73E005BFE10 /* LoginScreen2VC.swift in Sources */,
 				495F7F8D2BC7BAA9005BFE10 /* ViewController.swift in Sources */,
 				49E31AE32BCE99A300784C48 /* CustomDataSourceDelegate.swift in Sources */,
 				49E31B292BCFC03D00784C48 /* NewCustomDataSourceDelegate.swift in Sources */,
+				49542C242BD76F6A00289F95 /* DashboardVC.swift in Sources */,
 				49E31B5D2BD2922B00784C48 /* DynamicVC.swift in Sources */,
 				495F7FC22BC7D42D005BFE10 /* ColourChangeVC.swift in Sources */,
 				49E31B3A2BD0EBF300784C48 /* SimpleCVC.swift in Sources */,
@@ -1248,7 +1364,7 @@
 				INFOPLIST_FILE = CombinedExercises/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Dashboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1280,7 +1396,7 @@
 				INFOPLIST_FILE = CombinedExercises/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Dashboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1323,6 +1439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49542C0E2BD768CB00289F95 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49542C0F2BD768CB00289F95 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49542C0E2BD768CB00289F95 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 495F7F7D2BC7BAA9005BFE10 /* Project object */;
 }

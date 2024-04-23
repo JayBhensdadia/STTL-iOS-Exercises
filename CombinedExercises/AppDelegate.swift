@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SideMenu
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,10 +25,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //               }
 //           }
 //        
+        setUpLeftMenu()
+        setUpInitialVC()
+        
         return true
     }
 
     
+    func setUpInitialVC(){
+        let storyboard = UIStoryboard(name: "Dashboard", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Dashboard")
+        let navigationController = UINavigationController(rootViewController: vc)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+    }
 
+    func setUpLeftMenu(){
+        let storyboard = UIStoryboard(name:"Sidemenu", bundle: nil)
+        let sidemenuVC = storyboard.instantiateViewController(withIdentifier: "Sidemenu")as! SidemenuVC
+        
+        let sideMenuViewController = SideMenuNavigationController(rootViewController: sidemenuVC)
+        sideMenuViewController.leftSide = true
+        sideMenuViewController.isNavigationBarHidden = true
+        SideMenuManager.default.leftMenuNavigationController = sideMenuViewController
+        SideMenuManager.default.rightMenuNavigationController = sideMenuViewController
+        sideMenuViewController.pushStyle = .default
+        sideMenuViewController.presentationStyle = .menuSlideIn
+        sideMenuViewController.presentationStyle.backgroundColor = .black
+        sideMenuViewController.settings.statusBarEndAlpha = 0
+        sideMenuViewController.presentationStyle.presentingEndAlpha = 0.6
+        let  SCREEN_WIDTH = UIScreen.main.bounds.size.width
+        sideMenuViewController.menuWidth = SCREEN_WIDTH * 0.8
+    }
 }
 

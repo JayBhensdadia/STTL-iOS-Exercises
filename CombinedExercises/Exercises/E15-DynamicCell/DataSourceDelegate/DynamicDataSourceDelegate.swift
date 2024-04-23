@@ -39,6 +39,7 @@ class DynamicDataSourceDelegate: NSObject {
         //        tblvw.register(cellType: CustomTVC.self)
         tblvw.dataSource = self
         tblvw.delegate = self
+        
         self.tblvw.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         tblvw.reloadData()
         
@@ -74,7 +75,7 @@ extension DynamicDataSourceDelegate:UITableViewDataSource
         cell.txtTitle.delegate = self
         //        cell.btnAdd.accessibilityHint =  editingTitle ?? "Empty Title"
         //        print(editingTitle)
-        cell.btnDelete.tag = indexPath.row
+//        cell.btnDelete.tag = indexPath.row
         deletingIndex = indexPath.row
         cell.btnAdd.addTarget(self, action: #selector(addAction(_:)), for: .touchUpInside)
         cell.btnDelete.addTarget(self, action: #selector(deleteAction), for: .touchUpInside)
@@ -82,9 +83,6 @@ extension DynamicDataSourceDelegate:UITableViewDataSource
         cell.configCell(data: arrSource[indexPath.row])
         return cell
     }
-    
-    
-    
 }
 
 
@@ -109,25 +107,27 @@ extension DynamicDataSourceDelegate{
             return
         }
         
-        // Calculate the insertion index for the second-to-last position.
+        
         let insertIndex = max(0, arrSource.count - 1)
         
-        // Insert the new item into the data source.
+        
         arrSource.insert(Todo(title: title, isEditing: false), at: insertIndex)
         
-        // Update the table view to reflect the change.
+        
         tblvw.performBatchUpdates({
             let indexPath = IndexPath(row: insertIndex, section: 0)
             tblvw.insertRows(at: [indexPath], with: .automatic)
         }, completion: nil)
         
         
-        // Clear the text field in the cell where the button was tapped.
+        
         if let buttonPosition = sender.superview?.convert(sender.frame.origin, to: tblvw),
            let indexPath = tblvw.indexPathForRow(at: buttonPosition),
            let cell = tblvw.cellForRow(at: indexPath) as? DynamicTVC {
             cell.txtTitle.text = ""
         }
+        
+        editingTitle = ""
         
         
     }
@@ -153,10 +153,16 @@ extension DynamicDataSourceDelegate: UITextFieldDelegate{
         textField.addTarget(self, action: #selector(valueChanged), for: .editingChanged)
     }
     
-    //    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-    //        textField.text = ""
-    //        return true
-    //    }
+        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            textField.text = ""
+            if let buttonPosition = textField.superview?.convert(textField.frame.origin, to: tblvw),
+               let indexPath = tblvw.indexPathForRow(at: buttonPosition),
+               let cell = tblvw.cellForRow(at: indexPath) as? DynamicTVC {
+                addAction(cell.btnAdd)
+            }
+            textField.resignFirstResponder()
+            return true
+        }
     
     
     @objc func valueChanged(_ textField: UITextField){
