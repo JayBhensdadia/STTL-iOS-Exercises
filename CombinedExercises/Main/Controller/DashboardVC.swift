@@ -10,10 +10,18 @@ import SideMenu
 
 class DashboardVC: UIViewController {
 
+    @IBOutlet var bgView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationItem.setHidesBackButton(true, animated:true);
+        bgView.layer.cornerRadius = 20
+        bgView.layer.masksToBounds = true
+        
+        bgView.layer.shadowColor = UIColor.black.cgColor
+        bgView.layer.shadowOpacity = 0.3
+        bgView.layer.shadowOffset = CGSize(width: 0, height: 4)
+        bgView.layer.shadowRadius = 4
+        bgView.layer.masksToBounds = false
     }
     
 

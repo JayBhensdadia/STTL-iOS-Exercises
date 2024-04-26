@@ -29,12 +29,11 @@ class ComplexCVC: UICollectionViewCell {
         viewShadow.layer.cornerRadius = 20
         viewShadow.layer.masksToBounds = true
         
-        viewShadow.layer.shadowColor = UIColor.systemGray3.cgColor
-        viewShadow.layer.shadowOffset = .zero
-        viewShadow.layer.shadowOpacity = 0.6
-        viewShadow.layer.shadowRadius = 10.0
-        viewShadow.layer.shadowPath = UIBezierPath(rect: viewShadow.bounds).cgPath
-        viewShadow.layer.shouldRasterize = true
+        self.layer.shadowColor = UIColor.black.cgColor
+             self.layer.shadowOpacity = 0.3
+             self.layer.shadowOffset = CGSize(width: 0, height: 4)
+             self.layer.shadowRadius = 4
+             self.layer.masksToBounds = false
         
     }
     

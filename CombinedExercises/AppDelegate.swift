@@ -24,7 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                   print("  \(name)")
 //               }
 //           }
-//        
+        
+        
+        
+//
         setUpLeftMenu()
         setUpInitialVC()
         
@@ -33,8 +36,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     func setUpInitialVC(){
-        let storyboard = UIStoryboard(name: "Dashboard", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "Dashboard")
+        
+        let storyboardID: String
+        if let email = UserDefaults.standard.string(forKey: "email"){
+            storyboardID = "Dashboard"
+        }else{
+            storyboardID = "LoginScreen2"
+        }
+        
+        
+        
+        
+        let storyboard = UIStoryboard(name: storyboardID, bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: storyboardID)
         let navigationController = UINavigationController(rootViewController: vc)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()

@@ -125,10 +125,10 @@ class LoginScreen2VC: UIViewController,UITextFieldDelegate {
                 }
                 
                 
-                let storyboard = UIStoryboard(name: "Home", bundle: nil)
-                let vc = storyboard.instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
-                vc.email = txtEmail.text
-                vc.password = txtPassword.text
+                let storyboard = UIStoryboard(name: "Dashboard", bundle: nil)
+                let vc = storyboard.instantiateViewController(withIdentifier: "Dashboard") as! DashboardVC
+//                vc.email = txtEmail.text
+//                vc.password = txtPassword.text
                 
                 navigationController?.pushViewController(vc, animated: true)
                 

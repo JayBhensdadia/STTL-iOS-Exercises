@@ -26,7 +26,7 @@ class SidemenuTVC: UITableViewCell {
  
     func configCell(data: SideMenuModel){
 //        print(data.Image)
-        imgView.image = UIImage(systemName: data.Image)
+        imgView.image = UIImage(named: data.Image)
         lblTitle.text = data.TitleKey
     }
 }

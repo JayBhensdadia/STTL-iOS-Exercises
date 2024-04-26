@@ -8,7 +8,7 @@
 		<key>storyboardID</key>
 		<string>Dashboard</string>
 		<key>Image</key>
-		<string>sidebar.left</string>
+		<string>icon-1</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -16,7 +16,7 @@
 		<key>storyboardID</key>
 		<string>Helloworld</string>
 		<key>Image</key>
-		<string>1.square.fill</string>
+		<string>icon-2</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -24,7 +24,7 @@
 		<key>storyboardID</key>
 		<string>ThreeScreens</string>
 		<key>Image</key>
-		<string>2.square.fill</string>
+		<string>icon-3</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -32,7 +32,7 @@
 		<key>storyboardID</key>
 		<string>ColourChange</string>
 		<key>Image</key>
-		<string>3.square.fill</string>
+		<string>icon-4</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -40,7 +40,7 @@
 		<key>storyboardID</key>
 		<string>StackExample</string>
 		<key>Image</key>
-		<string>4.square.fill</string>
+		<string>icon-5</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -48,7 +48,7 @@
 		<key>storyboardID</key>
 		<string>LoginScreen</string>
 		<key>Image</key>
-		<string>5.square.fill</string>
+		<string>icon-6</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -56,7 +56,7 @@
 		<key>storyboardID</key>
 		<string>LoginScreen2</string>
 		<key>Image</key>
-		<string>6.square.fill</string>
+		<string>icon-7</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -64,7 +64,7 @@
 		<key>storyboardID</key>
 		<string>NewsOnAir</string>
 		<key>Image</key>
-		<string>7.square.fill</string>
+		<string>icon-8</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -72,7 +72,7 @@
 		<key>storyboardID</key>
 		<string>SimpleTable</string>
 		<key>Image</key>
-		<string>8.square.fill</string>
+		<string>icon-9</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -80,7 +80,7 @@
 		<key>storyboardID</key>
 		<string>CountryTable</string>
 		<key>Image</key>
-		<string>9.square.fill</string>
+		<string>icon-10</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -88,7 +88,7 @@
 		<key>storyboardID</key>
 		<string>CustomizedTable</string>
 		<key>Image</key>
-		<string>10.square.fill</string>
+		<string>icon-11</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -96,7 +96,7 @@
 		<key>storyboardID</key>
 		<string>TableFromJson</string>
 		<key>Image</key>
-		<string>11.square.fill</string>
+		<string>icon-12</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -104,7 +104,7 @@
 		<key>storyboardID</key>
 		<string>SectionedTable</string>
 		<key>Image</key>
-		<string>12.square.fill</string>
+		<string>icon-13</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -112,7 +112,7 @@
 		<key>storyboardID</key>
 		<string>SimpleCollectionView</string>
 		<key>Image</key>
-		<string>13.square.fill</string>
+		<string>icon-14</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -120,7 +120,7 @@
 		<key>storyboardID</key>
 		<string>ComplexCollectionView</string>
 		<key>Image</key>
-		<string>14.square.fill</string>
+		<string>icon-15</string>
 	</dict>
 	<dict>
 		<key>TitleKey</key>
@@ -128,7 +128,7 @@
 		<key>storyboardID</key>
 		<string>Dynamic</string>
 		<key>Image</key>
-		<string>15.square.fill</string>
+		<string>icon-16</string>
 	</dict>
 </array>
 </plist>

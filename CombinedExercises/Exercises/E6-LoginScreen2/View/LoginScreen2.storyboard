@@ -21,11 +21,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzZ-aj-GYG" userLabel="rootView">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="FbV-53-s0q">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="FbV-53-s0q">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sj8-83-CfO">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sj8-83-CfO">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="711.66666666666663"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sttl-logo" translatesAutoresizingMaskIntoConstraints="NO" id="DgZ-FY-inG">
                                                         <rect key="frame" x="78.666666666666671" y="20.000000000000007" width="235.66666666666663" height="106.66666666666669"/>
@@ -265,6 +265,7 @@
                                                     <constraint firstItem="FTf-E8-wvg" firstAttribute="top" secondItem="c0K-BJ-pM8" secondAttribute="bottom" constant="10" id="gu4-2S-Qya"/>
                                                     <constraint firstItem="ofy-pb-Sjj" firstAttribute="leading" secondItem="Sj8-83-CfO" secondAttribute="leading" constant="16" id="hV9-nD-P64"/>
                                                     <constraint firstItem="fh2-7W-Ott" firstAttribute="top" secondItem="0Qn-4v-YXp" secondAttribute="bottom" constant="20" id="jhs-ad-KkD"/>
+                                                    <constraint firstAttribute="bottom" secondItem="FTf-E8-wvg" secondAttribute="bottom" constant="10" id="lVV-7g-t3o"/>
                                                     <constraint firstItem="DgZ-FY-inG" firstAttribute="width" secondItem="Sj8-83-CfO" secondAttribute="width" multiplier="0.6" id="m5P-Am-rtG"/>
                                                     <constraint firstItem="0Qn-4v-YXp" firstAttribute="leading" secondItem="Sj8-83-CfO" secondAttribute="leading" constant="16" id="tMM-Pk-zFH"/>
                                                 </constraints>
@@ -272,9 +273,9 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="Sj8-83-CfO" firstAttribute="width" secondItem="FbV-53-s0q" secondAttribute="width" id="4Gb-dR-IPo"/>
+                                            <constraint firstAttribute="bottom" secondItem="Sj8-83-CfO" secondAttribute="bottom" id="I36-3O-ju2"/>
                                             <constraint firstItem="Sj8-83-CfO" firstAttribute="top" secondItem="FbV-53-s0q" secondAttribute="top" id="Sy4-a3-nRt"/>
                                             <constraint firstItem="Sj8-83-CfO" firstAttribute="leading" secondItem="FbV-53-s0q" secondAttribute="leading" id="a0B-Y2-roA"/>
-                                            <constraint firstAttribute="bottom" secondItem="Sj8-83-CfO" secondAttribute="bottom" id="fDo-LA-ZK4"/>
                                             <constraint firstAttribute="trailing" secondItem="Sj8-83-CfO" secondAttribute="trailing" id="uaG-NV-kZi"/>
                                         </constraints>
                                     </scrollView>
@@ -327,7 +328,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
