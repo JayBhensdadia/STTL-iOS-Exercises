@@ -27,10 +27,14 @@ class CustomTVC: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        viewLogo.layer.borderWidth = 1
-        viewLogo.layer.borderColor = UIColor.systemRed.cgColor
-        viewLogo.layer.masksToBounds = true
-        viewLogo.layer.cornerRadius = viewLogo.frame.height / 2
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
+            self.viewLogo.layer.borderWidth = 1
+            self.viewLogo.layer.borderColor = UIColor.systemRed.cgColor
+            self.viewLogo.layer.masksToBounds = true
+            self.viewLogo.layer.cornerRadius = self.viewLogo.frame.height / 2
+        })
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

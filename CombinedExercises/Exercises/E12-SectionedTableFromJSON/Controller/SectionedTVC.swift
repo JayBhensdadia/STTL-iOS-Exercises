@@ -29,6 +29,14 @@ class SectionedTVC: UIViewController {
         super.viewDidLoad()
         txtSearchBar.delegate = self
         getData()
+        
+        var sortedData = arrData.sorted { student1, student2 in
+            return student1.name < student2.name
+        }
+        
+        for std in sortedData{
+            print(std.name ?? "")
+        }
     }
     
     
@@ -51,6 +59,19 @@ class SectionedTVC: UIViewController {
 //implementing TbleViewDelegate protocol
 extension SectionedTVC : TblViewDelegate{
     func didselect(tbl: UITableView, indexPath: IndexPath) {
+        
+        
+        let story = UIStoryboard(name: "StudentDetails", bundle: nil)
+        let vc = story.instantiateViewController(withIdentifier: "StudentDetails")as! StudentDetailsVC
+        
+        
+        let sortedValues = Array(newCustomDataSourceDelegate.dict.values).sorted { arr1, arr2 in
+            arr1[0].name < arr2[0].name
+        }
+        
+        vc.student = sortedValues[indexPath.section][indexPath.row]
+        print("name --------- \(vc.student?.name ?? "")")
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
 }

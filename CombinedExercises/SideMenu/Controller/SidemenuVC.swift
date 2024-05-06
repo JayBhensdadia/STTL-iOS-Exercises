@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SideMenu
 
 class SidemenuVC: UIViewController {
 
@@ -122,9 +123,17 @@ class SidemenuVC: UIViewController {
 }
 extension SidemenuVC: TblViewDelegate{
     func didselect(tbl: UITableView, indexPath: IndexPath) {
-        let story = UIStoryboard(name: arrSideMenu[indexPath.row].storyboardID, bundle: nil)
-        let vc = story.instantiateViewController(withIdentifier: arrSideMenu[indexPath.row].storyboardID)as! UIViewController
-        self.navigationController?.pushViewController(vc, animated: true)
+        
+        if indexPath.row == 0{
+            SideMenuManager.default.leftMenuNavigationController?.dismiss(animated: true)
+        }else{
+            let story = UIStoryboard(name: arrSideMenu[indexPath.row].storyboardID, bundle: nil)
+            let vc = story.instantiateViewController(withIdentifier: arrSideMenu[indexPath.row].storyboardID)
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        }
+        
+        
     }
     
     

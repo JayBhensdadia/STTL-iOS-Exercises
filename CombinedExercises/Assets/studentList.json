@@ -1,4 +1,6 @@
 {
+    
+    
     "resultflag": 1,
     "message": "Success message",
     "StudentList": [
@@ -6,31 +8,81 @@
                 "name": "Atharv Pandit",
                 "dob":"01-01-2000",
                 "department":"ios",
-                "img":"https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw"
+                "img":"https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH=w240-h480-rw",
+                "studentId":31235,
+                "gender":"Male",
+                "semOneGrade":7.26,
+                "semTwoGrade":7.26,
+                "semThreeGrade":7.26,
+                "semFourGrade":7.26,
+                "semFiveGrade":7.26,
+                "semSixGrade":7.26,
+                "address":"2nd floor, saffron tower, opp. centro mall",
+                "sportsName":"Badminton"
             },
             {
                 "name": "Kashyap Patel",
                 "dob":"01-02-2000",
                 "department":"ios",
-                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nick_Ocean_Profile_Picture_.jpg/240px-Nick_Ocean_Profile_Picture_.jpg"
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nick_Ocean_Profile_Picture_.jpg/240px-Nick_Ocean_Profile_Picture_.jpg",
+                "studentId":31236,
+                "gender":"Male",
+                "semOneGrade":6.26,
+                "semTwoGrade":8.26,
+                "semThreeGrade":7.26,
+                "semFourGrade":6.26,
+                "semFiveGrade":8.26,
+                "semSixGrade":7.26,
+                "address":"2nd floor, saffron tower, opp. centro mall",
+                "sportsName":"Cricket"
             },
             {
                 "name": "Kumar Vishwas",
                 "dob":"11-02-2001",
                 "department":"java",
-                "img":"https://dinopixel.com/preload/0124/-profile-pic-.png"
+                "img":"https://dinopixel.com/preload/0124/-profile-pic-.png",
+                "studentId":31237,
+                "gender":"Male",
+                "semOneGrade":9.26,
+                "semTwoGrade":9.26,
+                "semThreeGrade":4.26,
+                "semFourGrade":7.26,
+                "semFiveGrade":9.26,
+                "semSixGrade":6.26,
+                "address":"2nd floor, saffron tower, opp. centro mall",
+                "sportsName":"Football"
             },
             {
                 "name": "Panshul Mistry",
                 "dob":"01-03-2000",
                 "department":"ios",
-                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/TripleA_profile.jpg/240px-TripleA_profile.jpg"
+                "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/TripleA_profile.jpg/240px-TripleA_profile.jpg",
+                "studentId":31238,
+                "gender":"Male",
+                "semOneGrade":6.26,
+                "semTwoGrade":7.26,
+                "semThreeGrade":6.26,
+                "semFourGrade":7.26,
+                "semFiveGrade":6.26,
+                "semSixGrade":7.26,
+                "address":"2nd floor, saffron tower, opp. centro mall",
+                "sportsName":"Badminton"
             },
             {
                 "name": "Priyal Savaliya",
                 "dob":"01-04-2000",
                 "department":"android",
-                "img":"https://dinopixel.com/preload/0423/Profile-pic1682355419.png"
+                "img":"https://dinopixel.com/preload/0423/Profile-pic1682355419.png",
+                "studentId":31239,
+                "gender":"Female",
+                "semOneGrade":8.26,
+                "semTwoGrade":9.26,
+                "semThreeGrade":8.26,
+                "semFourGrade":9.26,
+                "semFiveGrade":8.26,
+                "semSixGrade":9.26,
+                "address":"2nd floor, saffron tower, opp. centro mall",
+                "sportsName":"Badminton"
             }
            
         ]

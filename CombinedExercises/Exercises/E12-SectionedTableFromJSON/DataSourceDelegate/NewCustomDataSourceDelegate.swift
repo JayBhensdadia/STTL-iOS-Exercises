@@ -68,7 +68,7 @@ class NewCustomDataSourceDelegate: NSObject {
         dict.removeAll()
                 
         for student in (filteredArr.isEmpty ? ( isSearched ? filteredArr : arrSource): filteredArr){
-            var char = String(student.name[student.name.startIndex])
+            let char = String(student.name[student.name.startIndex])
             if dict[char] == nil{
                 dict[char] = [student]
             }else{

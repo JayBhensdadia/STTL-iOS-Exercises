@@ -65,6 +65,11 @@
 		495F7FE42BC7D7F7005BFE10 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F7FE12BC7D7F7005BFE10 /* HomeVC.swift */; };
 		495F7FE82BC7DAD2005BFE10 /* NewsOnAirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F7FE72BC7DAD2005BFE10 /* NewsOnAirVC.swift */; };
 		495F7FEB2BC7DAE2005BFE10 /* NewsOnAir.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495F7FEA2BC7DAE2005BFE10 /* NewsOnAir.storyboard */; };
+		49A3AD3B2BDF72F500681FB4 /* StudentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3AD3A2BDF72F500681FB4 /* StudentDetailsVC.swift */; };
+		49A3AD3D2BDF730400681FB4 /* StudentDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A3AD3C2BDF730400681FB4 /* StudentDetails.storyboard */; };
+		49A3AD412BDF794B00681FB4 /* StudentDetailsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A3AD402BDF794B00681FB4 /* StudentDetailsTVC.xib */; };
+		49A3AD422BDF794B00681FB4 /* StudentDetailsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3AD3F2BDF794B00681FB4 /* StudentDetailsTVC.swift */; };
+		49A3AD452BDF7A7F00681FB4 /* StudentDetailsDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3AD442BDF7A7F00681FB4 /* StudentDetailsDataSourceDelegate.swift */; };
 		49E31ABE2BCD467D00784C48 /* SimpleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E31ABD2BCD467D00784C48 /* SimpleTVC.swift */; };
 		49E31AC12BCD469D00784C48 /* SimpleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E31AC02BCD469D00784C48 /* SimpleTable.storyboard */; };
 		49E31AC52BCD49EC00784C48 /* CountryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E31AC42BCD49EC00784C48 /* CountryTVC.swift */; };
@@ -169,6 +174,11 @@
 		495F7FE12BC7D7F7005BFE10 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		495F7FE72BC7DAD2005BFE10 /* NewsOnAirVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsOnAirVC.swift; sourceTree = "<group>"; };
 		495F7FEA2BC7DAE2005BFE10 /* NewsOnAir.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsOnAir.storyboard; sourceTree = "<group>"; };
+		49A3AD3A2BDF72F500681FB4 /* StudentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsVC.swift; sourceTree = "<group>"; };
+		49A3AD3C2BDF730400681FB4 /* StudentDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentDetails.storyboard; sourceTree = "<group>"; };
+		49A3AD3F2BDF794B00681FB4 /* StudentDetailsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsTVC.swift; sourceTree = "<group>"; };
+		49A3AD402BDF794B00681FB4 /* StudentDetailsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentDetailsTVC.xib; sourceTree = "<group>"; };
+		49A3AD442BDF7A7F00681FB4 /* StudentDetailsDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsDataSourceDelegate.swift; sourceTree = "<group>"; };
 		49E31ABD2BCD467D00784C48 /* SimpleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTVC.swift; sourceTree = "<group>"; };
 		49E31AC02BCD469D00784C48 /* SimpleTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleTable.storyboard; sourceTree = "<group>"; };
 		49E31AC42BCD49EC00784C48 /* CountryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTVC.swift; sourceTree = "<group>"; };
@@ -634,6 +644,50 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		49A3AD372BDF72C500681FB4 /* E12_2 - StudentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				49A3AD432BDF7A3B00681FB4 /* DataSourceDelegate */,
+				49A3AD3E2BDF793100681FB4 /* Cell */,
+				49A3AD392BDF72DD00681FB4 /* View */,
+				49A3AD382BDF72D800681FB4 /* Controller */,
+			);
+			path = "E12_2 - StudentDetails";
+			sourceTree = "<group>";
+		};
+		49A3AD382BDF72D800681FB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49A3AD3A2BDF72F500681FB4 /* StudentDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49A3AD392BDF72DD00681FB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49A3AD3C2BDF730400681FB4 /* StudentDetails.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49A3AD3E2BDF793100681FB4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				49A3AD3F2BDF794B00681FB4 /* StudentDetailsTVC.swift */,
+				49A3AD402BDF794B00681FB4 /* StudentDetailsTVC.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		49A3AD432BDF7A3B00681FB4 /* DataSourceDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				49A3AD442BDF7A7F00681FB4 /* StudentDetailsDataSourceDelegate.swift */,
+			);
+			path = DataSourceDelegate;
+			sourceTree = "<group>";
+		};
 		49E31ABB2BCD464300784C48 /* E8-ContactList */ = {
 			isa = PBXGroup;
 			children = (
@@ -902,6 +956,7 @@
 				49E31AC92BCE430900784C48 /* E10-CustomizedTable */,
 				49E31AD52BCE985200784C48 /* E11-CustomizedTableFromJSON */,
 				49E31B202BCFBF9500784C48 /* E12-SectionedTableFromJSON */,
+				49A3AD372BDF72C500681FB4 /* E12_2 - StudentDetails */,
 				49E31B2F2BD0EB5D00784C48 /* E13-CollectionView */,
 				49E31B4B2BD1308300784C48 /* E14-ComplexCollectionView */,
 				49E31B5A2BD28F9400784C48 /* E15-DynamicCell */,
@@ -1116,6 +1171,7 @@
 				49542C202BD76AF300289F95 /* SidemenuTVC.xib in Resources */,
 				49324E6C2BC92422009A8883 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				49324E6B2BC92422009A8883 /* Poppins-ExtraLight.ttf in Resources */,
+				49A3AD3D2BDF730400681FB4 /* StudentDetails.storyboard in Resources */,
 				49E31AC72BCD49F700784C48 /* CountryTable.storyboard in Resources */,
 				495F7FEB2BC7DAE2005BFE10 /* NewsOnAir.storyboard in Resources */,
 				495F7F9E2BC7BB30005BFE10 /* Helloworld.storyboard in Resources */,
@@ -1147,6 +1203,7 @@
 				49E31ACF2BCE438000784C48 /* CustomizedTable.storyboard in Resources */,
 				49E31AE02BCE996C00784C48 /* CustomTVC.xib in Resources */,
 				49324E662BC92422009A8883 /* Poppins-BlackItalic.ttf in Resources */,
+				49A3AD412BDF794B00681FB4 /* StudentDetailsTVC.xib in Resources */,
 				495F7FAA2BC7BFBB005BFE10 /* ThreeScreens.storyboard in Resources */,
 				49E31AC12BCD469D00784C48 /* SimpleTable.storyboard in Resources */,
 				495F7F952BC7BAAB005BFE10 /* Base in Resources */,
@@ -1164,9 +1221,11 @@
 			files = (
 				49E31ABE2BCD467D00784C48 /* SimpleTVC.swift in Sources */,
 				49E31B322BD0EB8C00784C48 /* SimpleCollectionVC.swift in Sources */,
+				49A3AD422BDF794B00681FB4 /* StudentDetailsTVC.swift in Sources */,
 				49E31AE82BCE9A6400784C48 /* TblViewDelegate.swift in Sources */,
 				49542C212BD76AF300289F95 /* SidemenuTVC.swift in Sources */,
 				49542C1C2BD76A8700289F95 /* SidemenuDataSourceDelegate.swift in Sources */,
+				49A3AD452BDF7A7F00681FB4 /* StudentDetailsDataSourceDelegate.swift in Sources */,
 				495F7FD02BC7D5AB005BFE10 /* LoginScreenVC.swift in Sources */,
 				49E31B3F2BD126A000784C48 /* MainDataSourceDelegate.swift in Sources */,
 				495F7FE42BC7D7F7005BFE10 /* HomeVC.swift in Sources */,
@@ -1201,6 +1260,7 @@
 				49E31B232BCFBFCF00784C48 /* SectionedTVC.swift in Sources */,
 				495F7FA02BC7BB43005BFE10 /* HelloworldVC.swift in Sources */,
 				495F7FC92BC7D51F005BFE10 /* StackExampleVC.swift in Sources */,
+				49A3AD3B2BDF72F500681FB4 /* StudentDetailsVC.swift in Sources */,
 				495F7FE82BC7DAD2005BFE10 /* NewsOnAirVC.swift in Sources */,
 				495F7FB52BC7D2C3005BFE10 /* Screen2VC.swift in Sources */,
 				495F7FB22BC7D1FA005BFE10 /* Screen1VC.swift in Sources */,
